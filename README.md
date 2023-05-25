@@ -18,7 +18,9 @@ We begin by splitting our data into testing and training groups. We then create 
 
 <img src="Data_visuals/train_dist.png" width="30%"> <img src="Data_visuals/test_dist.png" width="30%">
 
-Our split distributions are similar enough to proceed. We will test the following classification techniques: Gaussian Naive Bayes (GNB), Logistic Regression (LR), Decision Tree, K-Nearest Neighbors (KNN), Random Forest, Support Vector Classification (SVC), XGBoost Classifier, and a Keras Neural Network (NN). To enhance the accuracy of our model training process and lessen the impact of an uneven distribution of tone types, we employ stratified k-folds. This technique enables us to train the models more effectively by maintaining the proportional representation of each tone type within the training folds. Also, we will be comparing each model utilizing their cross validation score. Training Summary:
+Our split distributions are similar enough to proceed. We will test the following classification techniques: Gaussian Naive Bayes (GNB), Logistic Regression (LR), Decision Tree, K-Nearest Neighbors (KNN), Random Forest, Support Vector Classification (SVC), XGBoost Classifier, and a Keras Neural Network (NN). 
+
+To enhance the accuracy of our model training process and lessen the impact of an uneven distribution of tone types, we employ stratified k-folds. This technique enables us to train the models more effectively by maintaining the proportional representation of each tone type within the training folds. Also, we will be comparing each model utilizing their cross validation score. Training Summary:
 
 <img src="Data_visuals/ML_acc.jpg" width="30%">
 
