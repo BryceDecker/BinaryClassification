@@ -14,7 +14,7 @@ Our aim is to identify models that exhibit the highest accuracy across different
 [Interview data](https://github.com/BryceDecker/BinaryClassification/blob/main/Interview_analysis_final.csv)
 
 ## :children_crossing: Walkthrough 
-We begin by splitting our data into testing and training groups. We then create seperate variations of these groups, one of which has been standardized and the other normalized. This is important to ensure the highest accuracy in our models. (:warning: note: be sure to standardize/normalize after splitting the data to prevent data leakage!) 
+We begin by splitting our data into testing and training groups. We then create seperate variations of these groups, one of which has been standardized and the other normalized. This is important to ensure the highest accuracy in our models. (note: be sure to standardize/normalize after splitting the data to prevent data leakage!) 
 
 <img src="Data_visuals/train_dist.png" width="30%"> <img src="Data_visuals/test_dist.png" width="30%">
 
