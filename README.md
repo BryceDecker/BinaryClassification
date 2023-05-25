@@ -14,5 +14,10 @@ This project's focus will be on binary classification techniques to predict Lebr
 ## :children_crossing: Walkthrough 
 
 ## :closed_book: Conclusion
+With our data set on the smaller size we identified logistic regression (LR) and SVC as viable techniques. To identify the best performing binary classification method, we tested eight different techniques. Among them, Support Vector Classifier (SVC), Logistic Regression (LR), and K-Nearest Neighbors (KNN) consistently emerged as our top-performing methods. When evaluating results on different random states (for test-train-split), we identified a trend between test data which had larger amounts of 'more positive' data points and better the accuracy on the test data set. Ultimatively, we saw accuracy ranging from 70% up to 90%+ on the train and test data. For our random state (= 2), we obtained 80.95% accuracy using our LR and KNN models and 76.19% accuracy using the SVC model on our test data. These values are in excess of 25% more accurate than choosing 'more positive' every time and given our limitations on features (due to practice interviews having no associated statistics unlike post-game interviews) we find these results to be fairly strong.
 
 ## :construction: Improvements
+
+We are aware that removing practice interviews from the data would yield much higher accuracy scores, as we identified in the Sentiment Analysis project. Being able to include game stats could offer further improvements through identifying additional impactful features.
+
+More data, more data, more data.
