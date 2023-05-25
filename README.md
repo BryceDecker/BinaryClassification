@@ -10,7 +10,7 @@ The primary objective of this project is to utilize binary classification techni
 
 Our aim is to identify models that exhibit the highest accuracy across different random states. The question that arises is: How accurate can we actually be in predicting LeBron's response tone?
 
-## 📁 Datasets
+## 📁 Dataset
 [Interview data](https://github.com/BryceDecker/BinaryClassification/blob/main/Interview_analysis_final.csv)
 
 ## :children_crossing: Walkthrough 
