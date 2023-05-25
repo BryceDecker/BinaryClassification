@@ -22,7 +22,7 @@ Our split distributions are similar enough to proceed. We will test the followin
 
 We employed all of our models, with the exception of the neural network, on our test data set with each scaler applied (none, standardscaler, and normalizer) and identified the best results from each model. 
 
-<img src="Data_visuals/MLtestresults.png" width="30%">
+<img src="Data_visuals/MLtestresults.png" width="50%">
 
 We conclude with taking a closer look at our best performing models results in the form of confusion matrices.
 
