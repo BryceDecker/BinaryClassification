@@ -36,6 +36,6 @@ With our data set on the smaller size we identified logistic regression (LR) and
 
 ## :construction: Improvements
 
-We are aware that removing practice interviews from the data would yield much higher accuracy scores, as we identified in the Sentiment Analysis project. Removing practice day interviews would allow us to include game stats which could offer further improvements through identifying additional important features.
+We are aware that removing practice interviews from the data would yield much higher accuracy scores, as we identified in the Sentiment Analysis project. Removing practice day interviews would allow us to include game stats which could offer further improvements through identifying additional important features. This will be explored at a later date.
 
 More data, more data, and more data. Also, testing more random states - even consider doing it iteratively and analyzing these results. (note: we created a file of random state results - e.g. more states were tested than seen in the code file.)
