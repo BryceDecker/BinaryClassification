@@ -6,7 +6,9 @@ This is a continuation of the [Sentiment Analysis](https://github.com/BryceDecke
 Binary classification is a machine learning technique used to categorize data into two distinct classes or categories. It has been extensively applied in various domains, including spam detection, disease diagnosis, sentiment analysis, and fraud detection. By leveraging historical data and training algorithms, binary classification models are able to make predictions and classify new instances into one of the two predefined classes with high accuracy.
 
 ## 🎯 Aim
-This project's focus will be on binary classification techniques to predict Lebron's response tone as either more neutral or more positive. We seek to identify models with the highest accuracy across various random states. 
+This project's focus will be on binary classification techniques to predict Lebron's response tone as either more neutral or more positive. As we mentioned, these techniques are commonly used in sentiment analysis!
+
+We seek to identify models with the highest accuracy across various random states. How accurate can we be?
 
 ## 📁 Datasets
 [Interview data](https://github.com/BryceDecker/BinaryClassification/blob/main/Interview_analysis_final.csv)
@@ -36,4 +38,4 @@ With our data set on the smaller size we identified logistic regression (LR) and
 
 We are aware that removing practice interviews from the data would yield much higher accuracy scores, as we identified in the Sentiment Analysis project. Being able to include game stats could offer further improvements through identifying additional impactful features.
 
-More data, more data, more data.
+More data, more data, and more data. Also, testing more random states - even consider doing it iteratively and analyzing these results.
