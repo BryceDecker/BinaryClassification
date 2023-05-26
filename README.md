@@ -14,7 +14,7 @@ Our aim is to identify models that exhibit the highest accuracy across different
 [Interview data](https://github.com/BryceDecker/BinaryClassification/blob/main/Interview_analysis_final.csv)
 
 ## :children_crossing: Walkthrough 
-We begin by splitting our data into testing and training groups. We then create seperate variations of these groups, one of which has been standardized and the other normalized. This is important to ensure the highest accuracy in our models. (note: be sure to standardize/normalize after splitting the data to prevent data leakage!) 
+We begin by splitting our data into testing and training groups. We then create separate variations of these groups, one of which has been standardized and the other normalized. This is important to ensure the highest accuracy in our models. (note: be sure to standardize/normalize after splitting the data to prevent data leakage!) 
 
 <img src="Data_visuals/train_dist.png" width="30%"> <img src="Data_visuals/test_dist.png" width="30%">
 
@@ -34,9 +34,9 @@ We conclude with taking a closer look at our best performing models results in t
  <img src="Data_visuals/svc_confusion1.png" width="30%"> 
 
 ## :closed_book: Conclusion
-With our data set on the smaller size we identified logistic regression (LR) and SVC as viable techniques. To identify the best performing binary classification method, we tested eight different techniques. Among them, Support Vector Classifier (SVC), Logistic Regression (LR), and K-Nearest Neighbors (KNN) consistently emerged as top performers. 
+With our data set on the smaller size, we identified logistic regression (LR) and SVC as viable techniques. To identify the best performing binary classification method, we tested eight different techniques. Among them, Support Vector Classifier (SVC), Logistic Regression (LR), and K-Nearest Neighbors (KNN) consistently emerged as top performers. 
 
-When evaluating results on different random states (for test-train-split), we identified a trend between test data which had larger amounts of 'more positive' data points and higher accuracy on the test data set. Ultimatively, we saw accuracy ranging from 70% up to 90%+ on the train and test data. 
+When evaluating results on different random states (for test-train-split), we identified a trend between test data which had larger amounts of 'more positive' data points and higher accuracy on the test data set. Ultimately, we saw accuracy ranging from 70% up to 90%+ on the train and test data. 
 
 For our random state (= 2), we obtained 80.95% accuracy using our LR and KNN models and 76.19% accuracy using the SVC model on our test data. These values are in excess of 25% more accurate than choosing 'more positive' every time and given our limitations on features (due to practice interviews having no associated statistics- unlike post-game interviews) we find these results to be fairly strong.
 
