@@ -28,7 +28,7 @@ We employed all of our models, with the exception of the neural network, on our 
 
 <img src="Data_visuals/MLtestresults.png" width="50%">
 
-We conclude with taking a closer look at our best performing models results in the form of confusion matrices.
+We conclude evaluating our best performing models results in the form of confusion matrices.
 
 <img src="Data_visuals/knn_confusion1.png" width="30%"> <img src="Data_visuals/lr_confusion1.png" width="30%">
  <img src="Data_visuals/svc_confusion1.png" width="30%"> 
@@ -36,12 +36,12 @@ We conclude with taking a closer look at our best performing models results in t
 ## :closed_book: Conclusion
 With our data set on the smaller size, we identified logistic regression (LR) and SVC as viable techniques. To identify the best performing binary classification method, we tested eight different techniques. Among them, Support Vector Classifier (SVC), Logistic Regression (LR), and K-Nearest Neighbors (KNN) consistently emerged as top performers. 
 
-When evaluating results on different random states (for test-train-split), we identified a trend between test data which had larger amounts of 'more positive' data points and higher accuracy on the test data set. Ultimately, we saw accuracy ranging from 70% up to 90%+ on the train and test data. 
+When evaluating results on different random states (for test-train-split), we identified a trend between test data which had larger amounts of 'more positive' data points and higher accuracy on the test data set. Ultimately, we saw accuracy ranging from 70% up to 90% on the train and test data. 
 
 For our random state (= 2), we obtained 80.95% accuracy using our LR and KNN models and 76.19% accuracy using the SVC model on our test data. These values are in excess of 25% more accurate than choosing 'more positive' every time and given our limitations on features (due to practice interviews having no associated statistics- unlike post-game interviews) we find these results to be fairly strong.
 
 ## :construction: Improvements
 
-We are aware that removing practice interviews from the data would yield much higher accuracy scores, as we identified in the Sentiment Analysis project. Removing practice day interviews would allow us to include game stats which could offer further improvements through identifying additional important features. This will be explored at a later date.
+We are aware that removing practice interviews from the data would yield much higher accuracy scores, as we identified in the Sentiment Analysis project. Removing practice day interviews would allow us to include game stats which could offer further improvements through identifying additional important features. This will be explored at a later date - let us note that practice data is nearly 50% of our data set.
 
 More data, more data, and more data. Also, testing more random states - even consider doing it iteratively and analyzing these results. (note: we created a file of random state results - e.g. more states were tested than seen in the code file.)
